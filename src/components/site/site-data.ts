@@ -68,7 +68,17 @@ export const PROJECT_FILTERS = [
   "Freelancing",
 ] as const;
 
-export const PROJECTS = [
+export type Project = {
+  title: string;
+  category: (typeof PROJECT_FILTERS)[number];
+  year: string;
+  /** Thumbnail: remote URL, or a file placed in /public (e.g. "/projects/hospital.jpg"). */
+  image: string;
+  /** Optional accessible description; falls back to the title. */
+  imageAlt?: string;
+};
+
+export const PROJECTS: Project[] = [
   {
     title: "Multi-speciality hospital patient acquisition",
     category: "Healthcare",
