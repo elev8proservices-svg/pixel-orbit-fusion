@@ -46,10 +46,17 @@ export function Projects() {
                 className="relative flex h-72 flex-col justify-between overflow-hidden rounded-2xl border border-ink/10 p-6 shadow-lift"
                 style={{ background: GRADIENTS[i % GRADIENTS.length] }}
               >
-                <span className="w-fit rounded-full border border-ivory/25 bg-ink/40 px-3 py-1 font-mono text-[0.62rem] tracking-[0.16em] text-ivory uppercase backdrop-blur-sm">
+                <img
+                  src={p.image}
+                  alt={p.title}
+                  loading="lazy"
+                  className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-45"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/30 to-transparent" />
+                <span className="relative w-fit rounded-full border border-ivory/25 bg-ink/40 px-3 py-1 font-mono text-[0.62rem] tracking-[0.16em] text-ivory uppercase backdrop-blur-sm">
                   {p.category}
                 </span>
-                <div>
+                <div className="relative">
                   <h3 className="display text-xl text-ivory">{p.title}</h3>
                   <p className="mt-2 font-mono text-[0.65rem] tracking-[0.18em] text-ivory/60 uppercase">
                     {p.year}
@@ -57,6 +64,7 @@ export function Projects() {
                 </div>
               </article>
             </TiltCard>
+
           ))}
         </div>
       </div>

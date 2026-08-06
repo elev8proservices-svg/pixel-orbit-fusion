@@ -73,46 +73,55 @@ export const PROJECTS = [
     title: "Multi-speciality hospital patient acquisition",
     category: "Healthcare",
     year: "Case study · 2025",
+    image: "https://picsum.photos/id/1015/800/600",
   },
   {
     title: "Diagnostics chain always-on social calendar",
     category: "Social Media",
     year: "Case study · 2025",
+    image: "https://picsum.photos/id/1039/800/600",
   },
   {
     title: "Restaurant launch identity & menu system",
     category: "Design",
     year: "Case study · 2024",
+    image: "https://picsum.photos/id/1043/800/600",
   },
   {
     title: "Salon chain reels engine & offer funnel",
     category: "Video",
     year: "Case study · 2024",
+    image: "https://picsum.photos/id/1050/800/600",
   },
   {
     title: "Real estate project launch ad campaign",
     category: "Freelancing",
     year: "Case study · 2026",
+    image: "https://picsum.photos/id/1069/800/600",
   },
   {
     title: "Education institute admissions push",
     category: "Social Media",
     year: "Case study · 2023",
+    image: "https://picsum.photos/id/1074/800/600",
   },
   {
     title: "Retail brand exhibition booth graphics",
     category: "Design",
     year: "Case study · 2023",
+    image: "https://picsum.photos/id/1080/800/600",
   },
   {
     title: "Health check-up camp campaign film",
     category: "Healthcare",
     year: "Case study · 2025",
+    image: "https://picsum.photos/id/1084/800/600",
   },
   {
     title: "Hospitality personal brand content system",
     category: "Freelancing",
     year: "Case study · 2026",
+    image: "https://picsum.photos/id/1090/800/600",
   },
 ];
 
