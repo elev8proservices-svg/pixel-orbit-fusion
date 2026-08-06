@@ -3,10 +3,10 @@ import { PRICING } from "./site-data";
 
 export function Pricing() {
   return (
-    <section id="pricing" className="section-light py-20 lg:py-28">
+    <section id="pricing" className="section-light py-16 sm:py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <p className="eyebrow text-teal">Pricing</p>
-        <h2 className="display mt-4 max-w-2xl text-4xl text-ink sm:text-5xl">
+        <h2 className="display mt-4 max-w-2xl text-3xl text-ink sm:text-5xl">
           Clear retainers. <em className="text-teal">No surprise invoices.</em>
         </h2>
 

@@ -16,10 +16,10 @@ export function Projects() {
   const visible = PROJECTS.filter((p) => filter === "All" || p.category === filter);
 
   return (
-    <section id="work" className="section-light py-20 lg:py-28">
+    <section id="work" className="section-light py-16 sm:py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <p className="eyebrow text-teal">Selected projects</p>
-        <h2 className="display mt-4 max-w-2xl text-4xl text-ink sm:text-5xl">
+        <h2 className="display mt-4 max-w-2xl text-3xl text-ink sm:text-5xl">
           Work that earned <em className="text-teal">enquiries</em>, not just likes.
         </h2>
 

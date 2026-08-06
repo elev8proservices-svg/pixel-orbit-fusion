@@ -186,11 +186,12 @@ export function OrbitScene() {
       <div
         ref={mountRef}
         aria-hidden="true"
-        className="h-[320px] w-full select-none sm:h-[420px] lg:h-[520px]"
+        className="h-[240px] w-full select-none sm:h-[380px] lg:h-[520px]"
       />
-      <p className="mt-3 text-center font-mono text-[0.65rem] tracking-[0.2em] text-muted-foreground uppercase">
+      <p className="mx-auto mt-3 max-w-xs text-center font-mono text-[0.58rem] leading-relaxed tracking-[0.16em] text-muted-foreground uppercase sm:max-w-none sm:text-[0.65rem] sm:tracking-[0.2em]">
         drag to rotate — every node is an industry I&apos;ve worked with
       </p>
     </div>
   );
+
 }

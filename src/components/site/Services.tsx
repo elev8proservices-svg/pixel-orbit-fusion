@@ -21,10 +21,10 @@ const ICONS: Record<string, LucideIcon> = {
 
 export function Services() {
   return (
-    <section id="services" className="relative bg-ink py-20 lg:py-28">
+    <section id="services" className="relative bg-ink py-16 sm:py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <p className="eyebrow text-teal-bright">Services</p>
-        <h2 className="display mt-4 max-w-2xl text-4xl sm:text-5xl">
+        <h2 className="display mt-4 max-w-2xl text-3xl sm:text-5xl">
           Everything a growing business needs, <em className="text-amber">without an agency</em>.
         </h2>
 
