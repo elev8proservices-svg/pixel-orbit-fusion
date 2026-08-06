@@ -48,7 +48,7 @@ export function Projects() {
               >
                 <img
                   src={p.image}
-                  alt={p.title}
+                  alt={p.imageAlt ?? p.title}
                   loading="lazy"
                   className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-45"
                 />
