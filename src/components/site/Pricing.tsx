@@ -14,7 +14,7 @@ export function Pricing() {
           {PRICING.map((tier) => (
             <article
               key={tier.name}
-              className={`relative rounded-3xl border p-8 ${
+              className={`relative rounded-3xl border p-6 sm:p-8 ${
                 tier.featured
                   ? "border-teal/40 bg-ink text-ivory shadow-lift lg:-mt-6 lg:pb-12"
                   : "border-ink/12 bg-ivory/70 text-ink"

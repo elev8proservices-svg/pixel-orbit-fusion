@@ -33,7 +33,7 @@ export function Services() {
             const Icon = ICONS[s.icon] ?? TrendingUp;
             return (
               <TiltCard key={s.title}>
-                <article className="group h-full rounded-2xl border border-border bg-ink-soft p-7 transition-colors hover:border-teal-bright/40">
+                <article className="group h-full rounded-2xl border border-border bg-ink-soft p-6 transition-colors sm:p-7 hover:border-teal-bright/40">
                   <span className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-teal-bright/30 bg-teal-bright/10 text-teal-bright">
                     <Icon size={19} />
                   </span>

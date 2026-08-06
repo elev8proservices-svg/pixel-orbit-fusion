@@ -46,9 +46,9 @@ export function Contact() {
             person for it.
           </p>
 
-          <div className="mt-10 grid gap-4 sm:grid-cols-2">
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:gap-4">
             {INFO.map((i) => (
-              <div key={i.label} className="rounded-2xl border border-border bg-ink-soft p-5">
+              <div key={i.label} className="rounded-2xl border border-border bg-ink-soft p-4 sm:p-5">
                 <span className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-teal-bright/30 bg-teal-bright/10 text-teal-bright">
                   <i.icon size={16} />
                 </span>
@@ -61,7 +61,7 @@ export function Contact() {
 
         <form
           onSubmit={onSubmit}
-          className="rounded-3xl border border-border bg-ink-soft p-7 sm:p-9"
+          className="rounded-3xl border border-border bg-ink-soft p-5 sm:p-9"
         >
           <div className="grid gap-5">
             <label className="block">
