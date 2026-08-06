@@ -4,8 +4,8 @@ import { SKILLS, TIMELINE } from "./site-data";
 
 export function About() {
   return (
-    <section id="about" className="section-light py-20 lg:py-28">
-      <div className="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16 lg:px-8">
+    <section id="about" className="section-light py-16 sm:py-20 lg:py-28">
+      <div className="mx-auto grid max-w-7xl gap-10 px-5 sm:gap-14 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16 lg:px-8">
         <div className="relative">
           <div className="relative overflow-hidden rounded-3xl border border-ink/10 shadow-lift">
             <img
@@ -26,7 +26,7 @@ export function About() {
 
         <div>
           <p className="eyebrow text-teal">About</p>
-          <h2 className="display mt-4 text-4xl text-ink sm:text-5xl">
+          <h2 className="display mt-4 text-3xl text-ink sm:text-5xl">
             Design that moves. <em className="text-teal">Marketing that converts.</em>
           </h2>
           <p className="mt-6 max-w-2xl leading-relaxed text-slate-muted">
